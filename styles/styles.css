@@ -1,0 +1,35 @@
+header {
+    background-color: #93b5c9;
+    height: 200px;
+}
+main{
+    text-align: center;
+}
+
+div{
+    height: 250px;
+    background-color: #ab2849;
+    margin: 0 0 20px 0;
+}
+
+section{
+    background-color: #ab2849;
+    height: 150px;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+section:nth-child(-n+4):nth-child(n+3){
+    width: 40%;
+    display: inline-block;
+}
+section:nth-child(6),
+section:nth-child(7){
+    width: 40%;
+    display: inline-block;
+}
+
+footer{
+    background-color: #ab2849 ;
+    height: 125px;
+    margin-bottom: 10px;
+}
